@@ -10,7 +10,7 @@ h1 {
     max-width: 190px;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-left: 670px;
+    margin-left: 790px;
     font-family: "Lucida Handwriting";
 }
 
@@ -22,8 +22,19 @@ h3 {
     padding: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-left: 145px;
+    margin-left: 135px;
     font-family: "Lucida Handwriting";
+    animation-name: rainbow;
+    animation-duration: 5s;
+}
+
+@keyframes rainbow {
+0%{background-color: rgb(221, 71, 88)}
+30%{background-color: rgb(231, 136, 72);}
+50%{background-color: rgb(255, 238, 90);}
+70%{background-color: rgb(97, 214, 102);}
+80%{background-color: rgb(90, 181, 255);}
+100%{background-color: rgb(221, 71, 88)}
 }
 
 div.reasons {
