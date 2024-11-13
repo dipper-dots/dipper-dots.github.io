@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(128, 139, 180);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(221, 71, 88);
+    border-radius: 100px;
+    max-width: 190px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 670px;
+    font-family: "Lucida Handwriting";
+}
+
+h3 {
+    text-align: center;
+    background-color: rgb(221, 71, 88);
+    border-radius: 12px;
+    max-width: 190px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 145px;
+    font-family: "Lucida Handwriting";
+}
+
+div.reasons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.reasons p.reason {
+    max-width: 33%;
+    background-color: cornflowerblue;
+    align-self: baseline;
+}
+
+div.reasons img {
+    max-width: 240px;
+}
+
+div.reasons img.party {
+    width: 100px;
+    height: 100px;
+}
+
+div.reasons img.party:hover {
+    transform: scale(120%);
+}
