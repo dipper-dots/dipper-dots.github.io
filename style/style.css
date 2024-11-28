@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(170, 171, 190);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    border: solid black 2px;
+    margin-right: 100%;
+    background-color: aliceblue;
+    padding: 5px;
+}
