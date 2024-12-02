@@ -6,7 +6,23 @@ body {
 
 p {
     border: solid black 2px;
-    margin-right: 100%;
     background-color: aliceblue;
     padding: 5px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    color: rgb(92, 19, 188);
+    text-decoration: none;
+  }
+
+a:hover {
+    color: rgb(196, 23, 40);
+}
+
+form {
+    margin-right: 100%;
+    font-weight: bold;
+    font-size: 17px;
 }
